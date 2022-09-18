@@ -1,0 +1,52 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+}
+
+@media(max-width:900px){
+ html{
+  font-size: 40%;
+ } 
+}
+
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-logo{
+  height: 7rem;
+}
+.carousel-item img{
+  margin-top:-30rem;
+}
+.carousel-item-prev,.carousel-item-next,.carousel-item.active{
+  transition: 3s;
+  
+}
+
+.carousel-inner{
+  max-height:40rem;
+}
+
+.card{
+  height: 35rem;
+}
+
+
+@media(max-width:567px){
+ .card{
+  height:30rem;
+  width:50%;
+  margin:0 auto;
+}
+}
+
+
+ .card img{
+    height:60%;
+    
+  }
+
